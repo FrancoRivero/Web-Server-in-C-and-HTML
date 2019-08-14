@@ -1,0 +1,1 @@
+cmd_/home/pi/franco/src/module/hello.ko := ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/pi/franco/src/module/hello.ko /home/pi/franco/src/module/hello.o /home/pi/franco/src/module/hello.mod.o ;  true
